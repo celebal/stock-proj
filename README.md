@@ -50,7 +50,7 @@ Right now we are working on using various conditions to filter through stations 
 - Number of rows per station (indicates number of weather readings)
 
 ### Downloading and Loading Stock data
-Stock Data Source: finance.yahoo.com
+Stock Data Source: http://finance.yahoo.com
 Using the same *pandas dataframe* process as the weather data loading, we included the stock data per file in a dataframe with the following schema:
 **Date, Open, High, Low, Close, Volume**
 ### Exploring weather data

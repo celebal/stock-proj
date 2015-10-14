@@ -56,4 +56,11 @@ Stock Data Source: Historical Quotes
 Using the same *pandas dataframe* process as the weather data loading, we included the stock data per file in a dataframe with the following schema:
 **Date, Open, High, Low, Close, Volume**
 ### Exploring weather data
-We will get to data exploration after filtering stations per city. 
+We use correlation matrices to determine the relationship between each station corresonding to a particular city. 
+
+The correlations depict whether particular station(s) were not similar to their peer stations. 
+
+For a full set of correlation matrices, check out the "Correlation Matrices~" file
+
+### Application: Computing Forecast regression with Exogenous variables (weather)
+Within the scripts page of the document, we provide an example IPython notebook of our design. Starting with ETL, we use scikit modules of GridSearch and various regressors to determine the optimal regression. We hope our sample code will illuminate our conceptualization more!
